@@ -12,7 +12,7 @@ const [mensaje, setMensaje] =useState('')
     if(!presupuesto || presupuesto < 0 ){
         setMensaje('No es un Presupuesto Valido')  
 
-            return
+            return;
     }
 
         setMensaje ('')
